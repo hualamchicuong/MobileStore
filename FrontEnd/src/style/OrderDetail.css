@@ -1,0 +1,20 @@
+.payment-address .payment-address{
+    background-color: #808080;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.button-container button{
+    margin-left: 10px;
+    font-weight: bold;
+    width: 130px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}

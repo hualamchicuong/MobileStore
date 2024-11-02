@@ -1,0 +1,282 @@
+.Banner-Info-Container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 330px;
+    flex-wrap: wrap;
+    position: relative;
+
+
+}
+
+.productDetailContainer{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.productBasicInfoContainer{
+    display: flex; /* Sử dụng flexbox để sắp xếp các phần tử con trên cùng một hàng */
+    flex-direction: row;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 45vw;
+    justify-content: space-between;
+}
+
+.productName_ImageContainer{
+    flex-basis: 45%;
+    /*background-color: cornflowerblue;*/
+}
+
+.productPrice_System{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.productInfoContainer:after {
+    content: "";
+    display: flex;
+}
+
+.productInfoContainer {
+    margin-left: 30px;
+    flex-basis: 45%;
+}
+
+.banner-system-container{
+    flex-basis: 45%;
+    position: relative;
+}
+
+.banner {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 30%;
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+    width: 85%;
+}
+
+.showMoreButton,
+.showLessButton
+{
+    font-size: 20px;
+    border: none;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 30%;
+    background-color: white;
+
+}
+
+.productDetailContainer{
+    margin-left: 20px;
+}
+
+.ProductImg{
+    width: 70%;
+}
+
+
+.productSystemContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.productSystemInfo{
+    display: flex;
+    column-gap: 10px;
+    flex-direction: column;
+    width: 80%;
+}
+
+.nameSystem{
+    font-weight: bolder;
+}
+
+
+
+.even {
+    background-color: #F5F5F5;
+    padding: 5px;
+}
+
+.odd{
+    padding: 5px;
+    background-color: white;
+
+}
+
+.product-system{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Chia thành hai cột có kích thước bằng nhau */
+    align-items: center;
+
+}
+
+.product-name-system{
+    font-weight: bolder;
+    width: 100%;
+}
+
+
+
+#price{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.AddToCartBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0062cc;
+    color: white;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
+.AddToCartBtn:hover{
+    background-color: darkblue;
+}
+
+.productPrice_System{
+    width: 75%;
+    height: 40vh;
+}
+
+.Toastify{
+    width: 600px;
+    height: auto;
+}
+
+.Toastify__toast-body {
+    font-size: 20px;
+
+}
+
+.Toastify__toast-header {
+    font-size: 25px;
+}
+
+.Product_Color_Container,
+.Product_Storage_Container{
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    position: relative;
+    bottom: 2px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/*.overflow-wrap--break-word {*/
+/*    overflow-wrap: anywhere;*/
+/*    line-break: auto;*/
+/*}*/
+
+/*.product_option_color {*/
+/*    word-break: break-all;*/
+
+/*}*/
+
+
+.product_option_Storage_item,
+.product_option_Color_item{
+    border: 3px solid black;
+    border-radius: 20px;
+    display: flex;
+    width:  200px;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 50px;
+    justify-content: flex-end;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.product_option_Storage_item.clicked,
+.product_option_Color_item.clicked {
+    border: 5px solid orange;
+}
+
+.product_option_Storage_item:hover,
+.product_option_Color_item:hover{
+    border: 2px solid black;
+}
+
+.product_option_storage,
+.product_option_color{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.product_option_Storage_item{
+    margin-bottom: 150px;
+}
+
+.product_option_img{
+    width: 120px;
+    padding: 5px;
+    opacity: 1.0;
+}
+
+.Storage_Title,
+.Color_Title{
+    margin-left: 50px;
+    font-size: 30px;
+
+}
+
+
+
+
+.quantityContainer{
+    display: flex;
+    margin-left: 45px;
+    position: relative;
+    bottom: 70px;
+    font-size: 30px;
+    align-items: center;
+
+}
+
+.quantityButton{
+    background-color: white;
+    border: none;
+    font-size: 50px;
+    color: cadetblue;
+}
+
+/*.quantityButton:hover{*/
+/*    color: darkcyan;*/
+/*}*/
+
+
+
+
+
+
+

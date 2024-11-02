@@ -1,0 +1,221 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 10vh;
+}
+
+#logo{
+    width: 150px;
+    height: 100%;
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-button {
+    width: 90px;
+    height: 45px;
+    margin-left: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #0062cc;
+    color: white;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0062cc;
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+.login-logout-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button,
+.logout-dropdown .dropdown-toggle {
+    border: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 200px;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.logout-dropdown {
+    margin-left: 10px;
+}
+
+.login-button:hover{
+    text-decoration: underline;
+}
+
+.login-button:focus{
+    outline: none;
+}
+
+.logout-dropdown .dropdown-toggle:hover{
+    text-decoration: none;
+    color: dimgray;
+}
+
+
+.search-bar-hint-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.search-results {
+    position: absolute;
+    top: calc(100% + 5px); /* Điều chỉnh khoảng cách giữa ô tìm kiếm và gợi ý */
+    left: 0;
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 9998; /* Đặt giá trị z-index cao hơn để đè lên tất cả các phần tử khác */
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+.product-image {
+    position: relative;
+    width: 100px; /* Điều chỉnh kích thước ảnh */
+    margin-right: 10px; /* Khoảng cách giữa ảnh và tên sản phẩm */
+}
+
+.product-name {
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    border-top: 1px solid black;
+    padding: 5px
+}
+
+.product-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title p{
+    font-weight: bold;
+}
+
+.CartButton {
+    border: none;
+    width: 80px;
+    height: 60px;
+    font-size: 35px;
+    background-color: white;
+    color: black;
+}
+
+.CartButton:hover{
+    color: gray;
+}
+
+.CartButton:visited{
+    pointer-events: none;
+    cursor: default;
+}
+
+
+.dropdown-item {
+    /* Chỉnh CSS cho các item trong dropdown menu */
+    color: black;
+    font-size: 16px;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    position: relative;
+    width: 180px;
+    max-height: 300px;
+    text-decoration: none;
+    font-weight: bold;
+    top: calc(100% + 5px); /* Điều chỉnh khoảng cách giữa ô tìm kiếm và gợi ý */
+    z-index: 999; /* Đặt giá trị z-index cao hơn để đè lên tất cả các phần tử khác */
+}
+
+.dropdown-item:hover {
+    background-color: #f5f5f5;
+}
+
+.dropdown-item:focus {
+    outline: none;
+}
+
+
+/*.logout-dropdown .DropdownItemContainer{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    position: absolute;*/
+/*    justify-content: flex-end;*/
+/*}*/
+
+.DropdownItemContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-end;
+
+}
+
+.Cart-User-Container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.admin-button{
+    position: relative;
+    left: 200px;
+    width: 200px;
+    height: 45px;
+    margin-left: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #0062cc;
+    color: white;
+    cursor: pointer;
+}
+
+.admin-button:hover{
+    background-color: darkblue;
+}
+
+
+

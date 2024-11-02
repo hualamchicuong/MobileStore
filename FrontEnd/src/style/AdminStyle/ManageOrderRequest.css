@@ -1,0 +1,55 @@
+.manange-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.OrderState {
+    margin-top: 100px;
+    display: flex;
+    margin-right: 50px;
+}
+
+
+.btn-state-filter button{
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+.btn-state-filter button:hover{
+    background-color: #F5F5F5;
+
+}
+
+.dropDownContainer{
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.dropDownContainer:hover{
+    background-color: #F5F5F5;
+}
+
+
+.DropdownItem-StateFilter{
+    display: flex;
+    flex-direction: column;
+}
+
+.title .order-item:hover{
+    background-color: lightgrey;
+}
+
+.title .order-item{
+    background-color: white;
+    width: 95.7%;
+    border: none;
+}

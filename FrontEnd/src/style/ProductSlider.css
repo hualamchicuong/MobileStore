@@ -1,0 +1,130 @@
+.product-slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+}
+
+.productType{
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 10px;
+
+}
+
+.ProductSlider_Container  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+}
+
+.ProductSlider_Container div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.slider {
+    overflow: hidden;
+}
+
+.product-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 500px;
+    border: none;
+}
+
+
+
+.product-style {
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+
+.product-style div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.product-style:hover{
+    transform: translateY(7px);
+
+}
+
+.product-images {
+    width: 180px;
+    max-height: 350px;
+
+}
+
+.product-names {
+    margin-top: 10px;
+}
+
+/*.navigation {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+
+/*}*/
+
+.prev,
+.next {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 35px;
+    cursor: pointer;
+    border: none;
+    color: #708090;
+}
+
+.prev{
+    position: absolute;
+    left: 40px;
+}
+.next{
+    position: absolute;
+    right: 40px;
+}
+
+.prev:hover,
+.next:hover {
+    color: darkblue;
+}
+
+.product{
+    border: none;
+    width: 250px;
+    height: 200px;
+
+}
+
+.product-Sysinfo{
+    display: none; /* Ẩn thông tin ban đầu */
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+}
+

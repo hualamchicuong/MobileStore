@@ -1,0 +1,81 @@
+.banner-slider {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex; /* Thêm thuộc tính display: flex; */
+    align-items: center; /* Canh chỉnh các phần tử theo trục dọc */
+    justify-content: space-around;
+    width: 100%;
+}
+
+.banner-slider:hover .banner-slider__prev{
+    display: block;
+}
+
+.banner-slider:hover .banner-slider__next{
+    display: block;
+}
+
+.banner-slider__slides {
+    width: 70%;
+    overflow: hidden;
+    position: relative; /* Thêm thuộc tính position: relative; */
+
+}
+
+
+
+.banner-slider__slide {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+
+}
+
+.banner-slider__slide.active {
+    opacity: 1;
+
+}
+
+.slider-image {
+    width: 100%; /* Điều chỉnh kích thước của ảnh */
+    position: relative;
+
+}
+
+.banner-img{
+    position: relative;
+
+
+
+}
+
+.banner-slider__prev,
+.banner-slider__next {
+    position: relative;
+    top: 50%;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 45px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    display: none;
+
+}
+
+.banner-slider__prev {
+    margin-left: 10px; /* Điều chỉnh khoảng cách với slider */
+}
+
+.banner-slider__next {
+    margin-right: 10px; /* Điều chỉnh khoảng cách với slider */
+}
+
+.banner-slider__prev-icon,
+.banner-slider__next-icon {
+
+}

@@ -1,0 +1,44 @@
+.order_history_Admin_container{
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    padding-left: 40px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.title-bar-Admin-container{
+    border-radius: 10px;
+    /*padding-left: 40px;*/
+    /*margin: 0 auto;*/
+    margin-top: 50px;
+    display: grid;
+    align-items: center;
+    margin-right: 40px;
+
+
+}
+
+.order-Admin-grid{
+    display: grid;
+    align-content: space-around;
+    /*grid-template-columns: repeat(1, 100vw);*/
+    margin-left: 40px;
+
+}
+
+.order-item-Admin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#id_orderInfo_totalCost{
+    margin-right: -30px;
+}
+
+#id_orderInfo_id{
+    margin-left: -50px;
+}

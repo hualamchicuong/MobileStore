@@ -1,0 +1,43 @@
+.title .order-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.title .order-item:hover{
+    background-color: lightgrey;
+}
+
+.order_history_container h1{
+    margin-left: 50px;
+}
+
+.title-bar-container{
+    display: grid;
+    align-items: center;
+
+}
+
+.title-bar{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.order-grid{
+    display: grid;
+    align-content: space-around;
+    grid-template-columns: repeat(1, 100vw);
+}
+
+.item{
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    margin-right: 15px;
+}
+

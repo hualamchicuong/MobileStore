@@ -1,0 +1,19 @@
+.search-account{
+    margin-top: 30px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+.search-bar-account input{
+    width: 350px;
+}
+
+.search-bar-account button{
+    width: 130px;
+    background-color: #0062cc;
+    color: white;
+
+}

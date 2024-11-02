@@ -1,0 +1,85 @@
+
+.user-info-container{
+    border: 2px solid dimgray;
+    border-radius: 10px;
+    padding-left: 40px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.button-container button{
+    background-color: white;
+    margin-right: 10px;
+    height: 80px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.button-container{
+    margin-top: 70px;
+
+}
+
+.phone-address_Container{
+    margin-right: 150px;
+}
+
+.phone-address_Container input{
+    margin-left: 20px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 2px;
+    font-size: 17px;
+}
+
+.content a{
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+#address_id{
+    margin-left: 75px;
+}
+
+.userValue{
+    position: relative;
+    right: 180px;
+}
+
+#updateBasicInfo{
+    position: relative;
+    right: 1080px;
+
+}
+
+#updateBasicInfo,
+#updateAddress_Phone,
+#saveUpdate,
+#cancelUpdate{
+    background-color: #0062cc;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+}
+
+#updateBasicInfo:hover,
+#updateAddress_Phone:hover,
+#saveUpdate:hover{
+    background-color: darkblue;
+}
+
+#cancelUpdate
+{
+    background-color: red;
+}
+
+#cancelUpdate:hover{
+    background-color: darkred;
+}

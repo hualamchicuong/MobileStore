@@ -1,0 +1,65 @@
+.search-filter-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.search-bar-account{
+    margin-top: 15px;
+}
+
+.pagination{
+    position: relative;
+    left: 50%;
+    margin-top: 10px;
+    width: 19%;
+
+}
+
+.cusTomPagination{
+    position: absolute;
+    left: 5%;
+}
+
+.cusTomPagination .dropDownPageContainer{
+    position: absolute;
+    width: 19%;
+    margin-bottom: 500px;
+}
+
+.dropDownPageContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /*bottom: -300px;*/
+}
+
+.pagination{
+    text-align: center;
+    position: relative;
+    left: 36%;
+}
+
+
+.pagination button{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.moveButton{
+    background-color: white;
+    border: none;
+    margin-top: 15px;
+    align-items: center;
+    width: 50px;
+    text-align: center;
+}
+
+.pagination button:hover{
+    background-color: slategrey;
+}

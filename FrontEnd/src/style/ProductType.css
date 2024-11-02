@@ -1,0 +1,61 @@
+/*.productType-Container{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    text-align: center;*/
+/*    justify-content: space-around;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+/*.product-type {*/
+/*    flex-basis: calc(33.33% - 150px); !* Kích thước tương đối cho 3 cột *!*/
+/*    margin: 10px; !* Khoảng cách giữa các cột *!*/
+/*}*/
+
+.productType-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* hoặc space-around hoặc space-evenly */
+    text-align: center;
+    align-items: center;
+}
+
+.product-type {
+    width: 30%; /* Để có khoảng cách giữa các cột */
+    margin-bottom: 50px;
+    position: relative; /* Để xác định vị trí cho thông tin khi hover */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: opacity 0.3s, transform 0.3s; /* Thêm hiệu ứng transition cho opacity và transform */
+
+}
+
+.product-Sysinfo {
+    display: none; /* Ẩn thông tin ban đầu */
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+
+}
+
+.product-type:hover{
+    transform: translateY(7px);
+}
+
+
+.product-type:hover .product-Sysinfo {
+    display: block; /* Hiển thị thông tin khi hover */
+    align-content: center;
+
+}
+
+
+
+
